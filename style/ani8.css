@@ -7,21 +7,20 @@ body{
     align-items: center;
 }
 div{
+    background-color: crimson;
     width: 100px;
     height: 100px;
     border: 1px solid black;
-    border-radius: 200px;
-    animation: pulsar 2s linear 3 alternate;
+    border-radius: 50%;
+    animation: pulsar 1.5s linear 3 alternate;
 }
 @keyframes pulsar {
     0%{
-        transform: translate(-50%,-50%);
         background-color: red;
         width: 100px;
         height: 100px;
     }
     100%{
-        transform: translate(-50%,-50%);
         background-color: darkred;
         width: 200px;
         height: 200px;
