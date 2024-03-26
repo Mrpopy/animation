@@ -1,12 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animação8</title>
-     <link rel="stylesheet" href="ani9.css">
-</head>
-<body>
-    <div></div>
-</body>
-</html>
+body{
+    width: auto;
+    height: 100vh;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    background-color: crimson;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    animation: pulsar 2s linear infinite alternate;
+}
+@keyframes pulsar {
+    0%{
+        background-color: red;
+        width: 100px;
+        height: 100px;
+    }
+    100%{
+        background-color: darkred;
+        width: 200px;
+        height: 200px;
+    }
+}
