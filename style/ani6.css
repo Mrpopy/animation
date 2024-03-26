@@ -1,0 +1,46 @@
+body{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    animation: animação 4s infinite linear;
+    transform: translate(-50%,-50%);
+}
+@keyframes animação {
+    0%{
+        transform: translate(-50%,-50%)rotate(0deg);
+        background-color: burlywood;
+    }
+    12.5%{
+        background-color: gray;
+    }
+    25%{
+        background-color: aquamarine;
+    }
+    37.5%{
+        background-color: blueviolet;
+    }
+    50%{
+        background-color: brown;
+    }
+    62.5%{
+        background-color: chartreuse;
+    }
+    75%{
+        background-color: blue;
+    }
+    87.5%{
+        background-color: coral;
+    }
+    100%{
+        background-color: darkgreen;
+        transform: translate(-50%,-50%)rotate(360deg);
+    }
+}

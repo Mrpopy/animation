@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div{
+    border: 1px solid black;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    transition: all 0.5s;
+}
+div:hover{
+    background-color: blue;
+    transform: scale(1.5);
+}

@@ -1,0 +1,27 @@
+body{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    animation: animação 2s ease infinite;
+    position: relative;
+}
+@keyframes animação {
+    0%{
+        background-color: blue;
+        width: 0px;
+        height: 0px;
+    }
+    100%{
+        background-color: red;
+        height: 200px;
+        width: 200px;
+    }
+}

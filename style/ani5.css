@@ -1,0 +1,25 @@
+body{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    animation: animação 3s ease;
+    transform: translate(-50%,-50%);
+    position: relative;
+}
+@keyframes animação {
+    to{
+        transform: translate(-50%,-50%)rotate(0deg);
+    }
+    from{
+       transform: translate(-50%,-50%)rotate(45deg);
+    }
+    4
+}
