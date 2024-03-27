@@ -11,15 +11,14 @@ div{
     height: 200px;
     border: 1px solid black;
     animation: animação 3s ease;
-    transform: translate(-50%,-50%);
     position: relative;
 }
 @keyframes animação {
-    to{
-        transform: translate(-50%,-50%)rotate(0deg);
-    }
     from{
-       transform: translate(-50%,-50%)rotate(45deg);
+        transform: rotate(0deg);
     }
-    4
+    to{
+       transform: rotate(45deg);
+    }
+    45%
 }

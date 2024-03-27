@@ -14,10 +14,10 @@ div{
     animation: animação 4s ;
 }
 @keyframes animação {  
-    to{
-
-    } 
     from{
         margin-right: 500px;
+    } 
+    to{
+    
     }
 }

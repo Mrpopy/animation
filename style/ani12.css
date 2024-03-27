@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    align-items: center;
+    overflow-y: hidden;
+}
+form{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 3px 6px 5px 3px;
+    background-image: url(../assets/windows.jpg);
+    background-size: cover;
+    animation: windows 2s forwards;
+}
+form button{
+    border: 1px solid black;
+    margin-top: 5px;
+    box-shadow: 3px 4px 3px 2px;
+}
+form input{
+    border-bottom: 1px;
+    margin-top: 10px;
+}
+h4{
+    box-shadow: 3px 4px 5px 4px;
+    width: 150px;
+}
+@keyframes windows{
+    from{
+        transform: translateY(-10%);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(100%);     
+    }
+}
