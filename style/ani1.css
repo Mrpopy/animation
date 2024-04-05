@@ -24,6 +24,7 @@ body{
     border: 2px solid black;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 6px 4.5px 2px ;
 }
 
 .botao button:hover {
