@@ -6,7 +6,7 @@ body{
     align-items: center;
     overflow-y: hidden;
 }
-div{
+.atv{
     width: 200px;
     height: 200px;
     border: 1px solid black;
@@ -24,4 +24,22 @@ div{
         height: 200px;
         width: 200px;
     }
+}
+.botao {
+    position: absolute;
+    bottom: 10px; 
+}
+
+.botao button {
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao button:hover {
+    background-color: crimson;
 }

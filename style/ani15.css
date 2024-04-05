@@ -1,0 +1,57 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.atv{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: blue;
+    animation: quicar 3s ease 4 ;
+    box-shadow: 10px 15px 5px ;
+}
+@keyframes quicar {
+    0%{
+        transform: translateX(0%);
+    }
+    20%{
+        transform: translateY(170%);
+    }
+    40%{
+        transform: translateX(430%);
+    }
+    60%{
+        transform: translateY(-170%);
+    }
+    80%{
+        transform: translateX(-430%);    
+    }
+    90%{
+        transform: translateY(170%);
+    }
+    100%{
+        transform: translateX(100%);
+        transform: translateY(0%);
+    }
+}
+.botao {
+    position: absolute;
+    bottom: 10px; 
+}
+
+.botao button {
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao button:hover {
+    background-color: crimson;
+}

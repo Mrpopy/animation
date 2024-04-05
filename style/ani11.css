@@ -5,7 +5,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-div{
+.atv{
     width: 200px;
     height: 200px;
     border: 1px solid black;
@@ -21,4 +21,22 @@ div{
     100%{
         transform: scale(1) rotate(360deg);
     }
+}
+.botao {
+    position: absolute;
+    bottom: 10px; 
+}
+
+.botao button {
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao button:hover {
+    background-color: crimson;
 }
