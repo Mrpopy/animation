@@ -4,16 +4,34 @@ body{
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    background-image: url(https://media.istockphoto.com/id/1491542521/es/foto/fondo-de-pared-de-ladrillo-negro-oscuro-concreto-%C3%A1spero-piso-de-concreto-enlucido-con-luces.jpg?b=1&s=170667a&w=0&k=20&c=YYcJkSlWHN4NUMDrIa2oi73FSTu1DlAy3vw_NIct7nk=);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 div{
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
+    background-image: url(https://st4.depositphotos.com/13349494/23275/i/450/depositphotos_232755656-stock-photo-grey-shabby-wooden-material-black.jpg);
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;  
+    width: 350px;
+    height: 500px;
+    border: 1px solid white;
     border-radius: 5px;
     animation: animation 3s ease-out forwards;
+    box-shadow: -40px 90px 45px ;
+}
+h1{
+    color: aliceblue;
 }
 .botao1{
     animation: botao1 0.5s;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
 }
 @keyframes animation {
     from{
@@ -35,6 +53,9 @@ div{
 }
 .botao2{
     animation: botao2 1.5s;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
 }
 @keyframes botao2 {
     from{
@@ -47,6 +68,9 @@ div{
 }
 .botao3{
     animation: botao2 2.5s;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
 }
 @keyframes botao2 {
     from{
@@ -59,6 +83,9 @@ div{
 }
 .botao4{
     animation: botao2 3.5s;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
 }
 @keyframes botao2 {
     from{
@@ -71,6 +98,9 @@ div{
 }
 .botao5{
     animation: botao2 4.5s;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
 }
 @keyframes botao2 {
     from{
@@ -82,7 +112,10 @@ div{
     }
 }
 .botao6{
-    animation: botao2 5.5s;
+    animation: botao2 0.5s;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
 }
 @keyframes botao2 {
     from{
@@ -94,7 +127,10 @@ div{
     }
 }
 .botao7{
-    animation: botao2 6.5s;
+    animation: botao2 1.5s;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
 }
 @keyframes botao2 {
     from{
@@ -106,7 +142,10 @@ div{
     }
 }
 .botao8{
-    animation: botao2 7.5s;
+    animation: botao2 2.5s;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
 }
 @keyframes botao2 {
     from{
@@ -118,7 +157,10 @@ div{
     }
 }
 .botao9{
-    animation: botao2 8.5s;
+    animation: botao2 3.5s;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
 }
 @keyframes botao2 {
     from{
@@ -130,7 +172,10 @@ div{
     }
 }
 .botao10{
-    animation: botao2 9.5s;
+    animation: botao2 4.5s;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
 }
 @keyframes botao2 {
     from{
@@ -143,6 +188,9 @@ div{
 }
 .botao11{
     animation: botao2 0.5s;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
 }
 @keyframes botao2 {
     from{
@@ -155,6 +203,9 @@ div{
 }
 .botao12{
     animation: botao2 1.5s;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
 }
 @keyframes botao2 {
     from{
@@ -167,6 +218,9 @@ div{
 }
 .botao13{
     animation: botao2 2.5s;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
 }
 @keyframes botao2 {
     from{
@@ -179,6 +233,9 @@ div{
 }
 .botao14{
     animation: botao2 3.5s;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
 }
 @keyframes botao2 {
     from{
@@ -191,6 +248,9 @@ div{
 }
 .botao15{
     animation: botao2 4.5s;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
 }
 @keyframes botao2 {
     from{
@@ -203,6 +263,8 @@ div{
 }
 .extra{
     animation: botao2 5.5s;
+    width: 60px;
+    height: 60px;
 }
 @keyframes botao2 {
     from{
