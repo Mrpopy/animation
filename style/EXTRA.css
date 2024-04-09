@@ -1,0 +1,57 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}   
+h1{
+    bottom: 800px;
+    position: absolute;
+}
+h2{
+    position: absolute;
+    bottom: 60px;
+}
+h3{
+    position: absolute;
+    bottom: 780px;
+}
+img{
+    width: 2000px;
+    height: 685px;
+}
+.nerd{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    top: 415px;
+}
+.fogos{
+    position: absolute;
+    width: 1700px;
+    height: 1000px;
+    right: 200px;
+    bottom: 10px;
+}
+.botao {
+    position: absolute;
+    bottom: 10px; 
+    left: 100px;
+}
+
+.botao button {
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao button:hover {
+    background-color: crimson;
+}

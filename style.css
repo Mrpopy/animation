@@ -7,7 +7,6 @@ body{
     background-image: url(https://media.istockphoto.com/id/1491542521/es/foto/fondo-de-pared-de-ladrillo-negro-oscuro-concreto-%C3%A1spero-piso-de-concreto-enlucido-con-luces.jpg?b=1&s=170667a&w=0&k=20&c=YYcJkSlWHN4NUMDrIa2oi73FSTu1DlAy3vw_NIct7nk=);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 div{
     background-image: url(https://st4.depositphotos.com/13349494/23275/i/450/depositphotos_232755656-stock-photo-grey-shabby-wooden-material-black.jpg);
@@ -25,7 +24,11 @@ div{
     box-shadow: -40px 90px 45px ;
 }
 h1{
+    animation: animation 5s forwards ease-in-out;
     color: aliceblue;
+    text-shadow:black -1em 0.7em 0.2em;
+    position: absolute;
+    bottom: 800px;
 }
 .botao1{
     animation: botao1 0.5s;
@@ -261,7 +264,7 @@ h1{
         transform: translateX(0%);
     }
 }
-.extra{
+.EXTRA{
     animation: botao2 5.5s;
     width: 60px;
     height: 60px;
